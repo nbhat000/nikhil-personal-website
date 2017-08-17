@@ -1,0 +1,93 @@
+.header-logo {
+  font-size: 5em;
+  font-family:"Milkshake", cursive;
+  text-align:center;
+}
+
+@font-face {
+    font-family: "Milkshake";
+    src: url("../Milkshake/Milkshake.ttf") format("truetype");
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+nav li {
+  font-size:1.2em;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform:uppercase;
+  font-family:"Open Sans Condensed", sans-serif;
+  color:#A2AEBB;
+  transition: .5s all;
+  letter-spacing:1px;
+
+}
+
+nav a:hover {
+  color:black;
+  letter-spacing:2px;
+  color: white;
+  background-color:#48A9A6 !important;
+}
+
+.navbar-toggle {
+  margin-right:0;
+  /*padding:0;*/
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #888;
+}
+@media (max-width:769px){
+    .navbar-header {
+        width: 100%;
+        text-align: center;
+        margin-top:1em;
+  }
+    .navbar-brand {
+        display: block;
+        float: none;
+        font-size: 4em;
+        font-family:"Milkshake", cursive;
+        text-transform:lowercase;
+        color:black;
+
+    }
+
+    h1 {
+      display:none;
+    }
+
+    .header-logo {
+      font-size: 1em;
+      margin-left:.6em;
+    }
+
+    nav a:hover {
+      color:black;
+      letter-spacing:1px;
+      color: none;
+      background-color:transparent !important;
+    }
+
+}
+
+@media (min-width: 769px){
+    .navbar-brand {
+        display: none;
+        font-size: 4em;
+        font-family:"Milkshake", cursive;
+        text-transform:lowercase;
+        color:black;
+    }
+}
