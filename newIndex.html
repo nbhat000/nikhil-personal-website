@@ -7,14 +7,15 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/main.js" type="text/javascript"></script>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Pacifico" rel="stylesheet">
   <link rel="stylesheet" href="css/newStyle.css" type="text/css">
 </head>
 <body>
   <div class="container">
     <h1 class="header-logo">nb</h1>
+    <!-- Navbar -->
     <nav class="navbar">
-      <!-- <div class="container-fluid"> -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
             <span class="icon-bar"></span>
@@ -25,17 +26,61 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Music</a></li>
-            <li><a href="#">Photography</a></li>
-            <li><a href="#">Film</a></li>
-            <li><a href="#">Graphic Design</a></li>
-            <li><a href="#">Film</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a id="home">Home</a></li>
+            <li><a id="music">Music</a></li>
+            <li><a id="photography">Photography</a></li>
+            <li><a id="film">Film</a></li>
+            <li><a id="graphic-design">Graphic Design</a></li>
+            <li><a id="contact">Contact</a></li>
           </ul>
         </div>
-      <!-- </div> -->
     </nav>
+
+
+
+    <main>
+      <!-- Home/About Section-->
+      <section id="home-section">
+        <div class="content-container">
+          <img class="personal-pic" src="images/nikhil.jpg">
+        </div>
+      </section>
+
+      <!-- Music Section -->
+      <section id="music-section"></section>
+
+
+      <!-- Photography Section -->
+      <section id="photography-section"></section>
+
+
+      <!-- Film Section -->
+      <section id="film-section">
+          <div class="content-container">
+            <div class="video-wrapper">
+              <iframe width="560" height="349" src="https://www.youtube.com/embed/FdLY9ScWWUc" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-wrapper">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/V_bJs9NYUCA" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+      </section>
+
+
+      <!-- Graphic Design Section -->
+      <section id="graphic-design-section">
+        <div class="content-container">
+          <img class="graphic-design-images" src="images/graphic-design/karthik.jpg">
+          <img class="graphic-design-images" src="images/graphic-design/semantics.jpg">
+          <img class="graphic-design-images" src="images/graphic-design/think-black-white.jpg">
+        </div>
+      </section>
+
+      <!-- Graphic Design Section -->
+      <section id="contact-section"></section>
+    </main>
+
+
   </div>
 
 </body>
