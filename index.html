@@ -7,8 +7,11 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- <script src="js/audio-player.js" type="text/javascript"></script> -->
   <script src="js/main.js" type="text/javascript"></script>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Pacifico" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="css/audio-player.css" type="text/css"> -->
   <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
@@ -36,8 +39,6 @@
         </div>
     </nav>
 
-
-
     <main>
       <!-- Home/About Section-->
       <section id="home-section">
@@ -47,12 +48,47 @@
       </section>
 
       <!-- Music Section -->
-      <section id="music-section"></section>
+      <section id="music-section">
+        <!-- <div class="container">
+          <div class="column add-bottom">
+            <div id="mainwrap">
+              <div id="nowPlay">
+                <span class="left" id="npAction">Paused...</span>
+                <span class="right" id="npTitle"></span>
+              </div>
+              <div id="audiowrap">
+                <div id="audio0">
+                  <audio preload id="audio1" controls="controls">Your browser does not support HTML5 Audio!</audio>
+                </div>
+                <div id="tracks">
+                  <a id="btnPrev">&laquo;</a>
+                  <a id="btnNext">&raquo;</a>
+                </div>
+              </div>
+              <div id="plwrap">
+                <ul id="plList"></ul>
+              </div>
+            </div>
+          </div>
+          <div class="column add-bottom center">
+            <p>Created by <a href="http://www.markhillard.com/">mh</a>. Music by <a href="http://www.mythium.net/">Mythium</a>.</p>
+            <p>Download: <a href="https://archive.org/download/mythium/mythium_vbr_mp3.zip">zip</a> / <a href="https://archive.org/download/mythium/mythium_archive.torrent">torrent</a></p>
+          </div>
+        </div> -->
+      </section>
 
 
       <!-- Photography Section -->
-      <section id="photography-section"></section>
-
+      <section id="photography-section">
+        <div class="content-container">
+          <img class="images-in-section" src="images/photography/sharkfin.jpg">
+          <img class="images-in-section" src="images/photography/golden-gate.jpg">
+          <img class="images-in-section" src="images/photography/karthik-look-thru.jpg">
+          <img class="images-in-section" src="images/photography/golden-gate-bw.jpg">
+          <img class="images-in-section" src="images/photography/twin-peaks.jpg">
+          <!-- <img class="images-in-section" src="images/photography/sharkfin.jpg"> -->
+        </div>
+      </section>
 
       <!-- Film Section -->
       <section id="film-section">
@@ -70,15 +106,29 @@
       <!-- Graphic Design Section -->
       <section id="graphic-design-section">
         <div class="content-container">
-          <img class="graphic-design-images" src="images/graphic-design/karthik.jpg">
-          <img class="graphic-design-images" src="images/graphic-design/semantics.jpg">
-          <img class="graphic-design-images" src="images/graphic-design/think-black-white.jpg">
+          <img class="images-in-section" src="images/graphic-design/karthik.jpg">
+          <a href="https://semanticsofficial.wordpress.com/">
+            <img class="images-in-section" src="images/graphic-design/semantics.jpg">
+          </a>
+          <img class="images-in-section" src="images/graphic-design/think-black-white.jpg">
         </div>
       </section>
 
       <!-- Graphic Design Section -->
       <section id="contact-section"></section>
     </main>
+
+    <footer>
+      <div class="social-media-div">
+        <a href="https://www.instagram.com/_nikhilbhat/">
+          <i class="fa fa-instagram social-media-icons" aria-hidden="true"></i>
+        </a>
+        <a href="mailto:nqb5152@gmail.com">
+          <i class="fa fa-envelope-o social-media-icons" aria-hidden="true"></i>
+        </a>
+      </div>
+      <p>Coded by Nikhil Bhat - 2017</p>
+    </footer>
 
 
   </div>

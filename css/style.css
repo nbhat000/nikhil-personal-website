@@ -16,6 +16,7 @@
   font-size: 5em;
   font-family:"Milkshake", cursive;
   text-align:center;
+  margin: .5em 0;
 }
 
 @font-face {
@@ -105,6 +106,14 @@ nav a:hover {
       width:90% !important;
     }
 
+    footer p {
+      font-size: .5em;
+    }
+
+    .social-media-icons {
+      font-size:.5em;
+    }
+
 }
 
 @media (min-width: 769px){
@@ -149,7 +158,7 @@ nav a:hover {
   margin:0 auto;
 }
 
-.graphic-design-images {
+.images-in-section {
   width:100%;
   margin: 2em 0;
 }
@@ -161,4 +170,46 @@ nav a:hover {
   border-radius:50%;
   text-align:center;
   margin:0 auto;
+}
+
+
+/********************************************************/
+
+/*================*/
+/*     Footer     */
+/*================*/
+
+footer {
+  margin: 3em 0;
+  text-align:center;
+}
+
+footer p {
+  font-family:"Open Sans Condensed", sans-serif;
+  font-size: 1em;
+  letter-spacing:1px;
+  color:#A2AEBB;
+}
+
+footer a {
+  text-decoration:none;
+  color:#A2AEBB;
+}
+
+.social-media-div {
+  margin:2em 0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.social-media-icons {
+  display:inline-block;
+  font-size:1.8em;
+  transition: .4s;
+  margin: .25em;
+}
+
+.social-media-icons:hover {
+  color: #48A9A6;
 }
