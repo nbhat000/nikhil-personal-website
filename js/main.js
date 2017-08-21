@@ -22,7 +22,7 @@
 window.onload = function() {
   console.log("JS loaded");
 
-  $('a').click(function (event) {
+  $('nav a').click(function (event) {
     var id = $(this).attr("id");
     // alert(id);
     // $("main").hide();
